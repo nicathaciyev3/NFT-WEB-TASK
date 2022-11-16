@@ -1,0 +1,65 @@
+nav{
+    position: absolute;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    box-shadow: 2px 3px 3px 1px rgba(0,0,0,0.75);
+-webkit-box-shadow: 2px 3px 3px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 3px 3px 1px rgba(0,0,0,0.75);
+    z-index: 7;
+    animation-name: navbar_animate;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+ }
+ @keyframes navbar_animate{
+    0%{left: 0px; top: -70px;}
+    100%{left: 0px; top: 0px;}
+ }
+ .menu .logo{
+    width: 150px;
+    height: 40px;
+    margin: 8px 117px auto;
+ }
+ nav .menu .menu_items ul{
+     display: flex;
+     justify-content: space-around;
+     gap: 50px;
+     align-items: center;
+     margin: 0px 371px 0px auto;
+     padding: 10px;
+    
+ }
+ 
+ nav .menu{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+ nav .menu .menu_items ul li{
+     list-style: none;
+    margin: 0px -3px;
+   
+     
+ }
+ nav .menu .menu_items ul li>a{
+     text-decoration: none;
+     color: white;
+     text-transform: capitalize;
+     font-family: 'Chakra Petch', sans-serif;
+ }
+nav .button1{
+    color: white;
+    position: absolute;
+    background: -webkit-linear-gradient(90deg, #ef4a7c,#f71267,#f8422e);
+    background: linear-gradient(90deg, #ef4a7c,#f71267,#f8422e);
+    font-family: 'Montserrat', sans-serif;
+    width: 170px;
+    height: 50px;
+    border-radius: 30px;
+    margin-left: 1100px;
+    margin-top: -50px;
+    cursor: pointer;
+}
+nav .button1:hover{
+    background: linear-gradient(-124deg,#f95a85,#f70361,#f95420)
+}
